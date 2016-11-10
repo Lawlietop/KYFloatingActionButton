@@ -3,9 +3,9 @@
 
 #Requirements
 
- -- iOS 8.0+
- -- Swift 3
- -- Xcode 8+
+ - iOS 8.0+
+ - Swift 3
+ - Xcode 8+
 
 #Demo
  ![](https://github.com/Lawlietop/KYFloatingActionButton/blob/master/Demo/9vfBOFE8QB.gif)
