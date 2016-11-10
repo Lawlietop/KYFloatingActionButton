@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DA58FC31DCB4405002CB5F2 /* ButtonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */; };
+		5DA58FC41DCB4405002CB5F2 /* KYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */; };
+		5DA58FC51DCB4405002CB5F2 /* KYButtonCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */; };
+		5DA58FC61DCB4405002CB5F2 /* OverLayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */; };
+		5DA58FC71DCB4405002CB5F2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */; };
+		5DA58FC91DCB4475002CB5F2 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DA58FC81DCB4475002CB5F2 /* 222.jpg */; };
+		5DA58FCB1DCB447D002CB5F2 /* Map Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */; };
+		9A066EC91DA2786D008798E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A066EC81DA2786D008798E5 /* AppDelegate.swift */; };
+		9A066ECB1DA2786D008798E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A066ECA1DA2786D008798E5 /* ViewController.swift */; };
+		9A066ECE1DA2786D008798E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A066ECC1DA2786D008798E5 /* Main.storyboard */; };
+		9A066ED01DA2786D008798E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A066ECF1DA2786D008798E5 /* Assets.xcassets */; };
+		9A066ED31DA2786D008798E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A066ED11DA2786D008798E5 /* LaunchScreen.storyboard */; };
+		9A066EDE1DA2786D008798E5 /* KYButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A066EDD1DA2786D008798E5 /* KYButtonTests.swift */; };
+		9A066EE91DA2786D008798E5 /* KYButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A066EE81DA2786D008798E5 /* KYButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A066EDA1DA2786D008798E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A066EBD1DA2786C008798E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A066EC41DA2786C008798E5;
+			remoteInfo = KYButton;
+		};
+		9A066EE51DA2786D008798E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A066EBD1DA2786C008798E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A066EC41DA2786C008798E5;
+			remoteInfo = KYButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayer.swift; sourceTree = "<group>"; };
+		5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYButton.swift; sourceTree = "<group>"; };
+		5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYButtonCells.swift; sourceTree = "<group>"; };
+		5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverLayView.swift; sourceTree = "<group>"; };
+		5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5DA58FC81DCB4475002CB5F2 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
+		5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Filled-50.png"; sourceTree = "<group>"; };
+		9A066EC51DA2786D008798E5 /* KYButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A066EC81DA2786D008798E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A066ECA1DA2786D008798E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A066ECD1DA2786D008798E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A066ECF1DA2786D008798E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A066ED21DA2786D008798E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A066ED41DA2786D008798E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A066ED91DA2786D008798E5 /* KYButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A066EDD1DA2786D008798E5 /* KYButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYButtonTests.swift; sourceTree = "<group>"; };
+		9A066EDF1DA2786D008798E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A066EE41DA2786D008798E5 /* KYButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A066EE81DA2786D008798E5 /* KYButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYButtonUITests.swift; sourceTree = "<group>"; };
+		9A066EEA1DA2786D008798E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A066EC21DA2786C008798E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066ED61DA2786D008798E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066EE11DA2786D008798E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DA58FBD1DCB4405002CB5F2 /* KYButton */ = {
+			isa = PBXGroup;
+			children = (
+				5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */,
+				5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */,
+				5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */,
+				5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */,
+				5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */,
+			);
+			path = KYButton;
+			sourceTree = "<group>";
+		};
+		9A066EBC1DA2786C008798E5 = {
+			isa = PBXGroup;
+			children = (
+				9A066EC71DA2786D008798E5 /* Exsample */,
+				9A066EDC1DA2786D008798E5 /* KYButtonTests */,
+				9A066EE71DA2786D008798E5 /* KYButtonUITests */,
+				9A066EC61DA2786D008798E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A066EC61DA2786D008798E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A066EC51DA2786D008798E5 /* KYButton.app */,
+				9A066ED91DA2786D008798E5 /* KYButtonTests.xctest */,
+				9A066EE41DA2786D008798E5 /* KYButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A066EC71DA2786D008798E5 /* Exsample */ = {
+			isa = PBXGroup;
+			children = (
+				9A066EC81DA2786D008798E5 /* AppDelegate.swift */,
+				9A066ECA1DA2786D008798E5 /* ViewController.swift */,
+				5DA58FBD1DCB4405002CB5F2 /* KYButton */,
+				9A066ECC1DA2786D008798E5 /* Main.storyboard */,
+				5DA58FC81DCB4475002CB5F2 /* 222.jpg */,
+				5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */,
+				9A066ECF1DA2786D008798E5 /* Assets.xcassets */,
+				9A066ED11DA2786D008798E5 /* LaunchScreen.storyboard */,
+				9A066ED41DA2786D008798E5 /* Info.plist */,
+			);
+			name = Exsample;
+			path = KYButton;
+			sourceTree = "<group>";
+		};
+		9A066EDC1DA2786D008798E5 /* KYButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A066EDD1DA2786D008798E5 /* KYButtonTests.swift */,
+				9A066EDF1DA2786D008798E5 /* Info.plist */,
+			);
+			path = KYButtonTests;
+			sourceTree = "<group>";
+		};
+		9A066EE71DA2786D008798E5 /* KYButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A066EE81DA2786D008798E5 /* KYButtonUITests.swift */,
+				9A066EEA1DA2786D008798E5 /* Info.plist */,
+			);
+			path = KYButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A066EC41DA2786C008798E5 /* KYButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A066EED1DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButton" */;
+			buildPhases = (
+				9A066EC11DA2786C008798E5 /* Sources */,
+				9A066EC21DA2786C008798E5 /* Frameworks */,
+				9A066EC31DA2786C008798E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYButton;
+			productName = KYButton;
+			productReference = 9A066EC51DA2786D008798E5 /* KYButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A066ED81DA2786D008798E5 /* KYButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A066EF01DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButtonTests" */;
+			buildPhases = (
+				9A066ED51DA2786D008798E5 /* Sources */,
+				9A066ED61DA2786D008798E5 /* Frameworks */,
+				9A066ED71DA2786D008798E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A066EDB1DA2786D008798E5 /* PBXTargetDependency */,
+			);
+			name = KYButtonTests;
+			productName = KYButtonTests;
+			productReference = 9A066ED91DA2786D008798E5 /* KYButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A066EE31DA2786D008798E5 /* KYButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A066EF31DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButtonUITests" */;
+			buildPhases = (
+				9A066EE01DA2786D008798E5 /* Sources */,
+				9A066EE11DA2786D008798E5 /* Frameworks */,
+				9A066EE21DA2786D008798E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A066EE61DA2786D008798E5 /* PBXTargetDependency */,
+			);
+			name = KYButtonUITests;
+			productName = KYButtonUITests;
+			productReference = 9A066EE41DA2786D008798E5 /* KYButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A066EBD1DA2786C008798E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Lawliet;
+				TargetAttributes = {
+					9A066EC41DA2786C008798E5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J9G3N86U4L;
+						ProvisioningStyle = Automatic;
+					};
+					9A066ED81DA2786D008798E5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A066EC41DA2786C008798E5;
+					};
+					9A066EE31DA2786D008798E5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A066EC41DA2786C008798E5;
+					};
+				};
+			};
+			buildConfigurationList = 9A066EC01DA2786C008798E5 /* Build configuration list for PBXProject "KYButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A066EBC1DA2786C008798E5;
+			productRefGroup = 9A066EC61DA2786D008798E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A066EC41DA2786C008798E5 /* KYButton */,
+				9A066ED81DA2786D008798E5 /* KYButtonTests */,
+				9A066EE31DA2786D008798E5 /* KYButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A066EC31DA2786C008798E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA58FCB1DCB447D002CB5F2 /* Map Filled-50.png in Resources */,
+				5DA58FC91DCB4475002CB5F2 /* 222.jpg in Resources */,
+				9A066ED31DA2786D008798E5 /* LaunchScreen.storyboard in Resources */,
+				9A066ED01DA2786D008798E5 /* Assets.xcassets in Resources */,
+				9A066ECE1DA2786D008798E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066ED71DA2786D008798E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066EE21DA2786D008798E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A066EC11DA2786C008798E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A066ECB1DA2786D008798E5 /* ViewController.swift in Sources */,
+				5DA58FC51DCB4405002CB5F2 /* KYButtonCells.swift in Sources */,
+				9A066EC91DA2786D008798E5 /* AppDelegate.swift in Sources */,
+				5DA58FC31DCB4405002CB5F2 /* ButtonLayer.swift in Sources */,
+				5DA58FC61DCB4405002CB5F2 /* OverLayView.swift in Sources */,
+				5DA58FC41DCB4405002CB5F2 /* KYButton.swift in Sources */,
+				5DA58FC71DCB4405002CB5F2 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066ED51DA2786D008798E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A066EDE1DA2786D008798E5 /* KYButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A066EE01DA2786D008798E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A066EE91DA2786D008798E5 /* KYButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A066EDB1DA2786D008798E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A066EC41DA2786C008798E5 /* KYButton */;
+			targetProxy = 9A066EDA1DA2786D008798E5 /* PBXContainerItemProxy */;
+		};
+		9A066EE61DA2786D008798E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A066EC41DA2786C008798E5 /* KYButton */;
+			targetProxy = 9A066EE51DA2786D008798E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A066ECC1DA2786D008798E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A066ECD1DA2786D008798E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A066ED11DA2786D008798E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A066ED21DA2786D008798E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A066EEB1DA2786D008798E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A066EEC1DA2786D008798E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A066EEE1DA2786D008798E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9G3N86U4L;
+				INFOPLIST_FILE = KYButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A066EEF1DA2786D008798E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9G3N86U4L;
+				INFOPLIST_FILE = KYButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A066EF11DA2786D008798E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KYButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYButton.app/KYButton";
+			};
+			name = Debug;
+		};
+		9A066EF21DA2786D008798E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KYButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYButton.app/KYButton";
+			};
+			name = Release;
+		};
+		9A066EF41DA2786D008798E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KYButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KYButton;
+			};
+			name = Debug;
+		};
+		9A066EF51DA2786D008798E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KYButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lawliet.KYButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KYButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A066EC01DA2786C008798E5 /* Build configuration list for PBXProject "KYButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A066EEB1DA2786D008798E5 /* Debug */,
+				9A066EEC1DA2786D008798E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A066EED1DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A066EEE1DA2786D008798E5 /* Debug */,
+				9A066EEF1DA2786D008798E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A066EF01DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A066EF11DA2786D008798E5 /* Debug */,
+				9A066EF21DA2786D008798E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A066EF31DA2786D008798E5 /* Build configuration list for PBXNativeTarget "KYButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A066EF41DA2786D008798E5 /* Debug */,
+				9A066EF51DA2786D008798E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A066EBD1DA2786C008798E5 /* Project object */;
+}
