@@ -56,3 +56,7 @@ button.openType = .popUp
 #Author
 - Shane Line 
 - Email：lawlietop@gmail.com
+
+
+#License
+MIT,see License
