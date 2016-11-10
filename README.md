@@ -13,15 +13,15 @@
 #Usage 
 
 - Step 1
- Drag a UIView into storyboard or xib 
+ -Drag a UIView into storyboard or xib 
  
  
 - Step 2 
- Give it constraint without width and height because it has a fixed width and height 55 ，Recommend adjusting height and width to 55 so that you could more easily set layout
+  -Give it constraint without width and height because it has a fixed width and height 55 ，Recommend adjusting height and width to 55 so that you could more easily set layout
  
  
 - Step 3 
- You can change the UIVvew bagroundcolor to adjust the FloatingActionButtonColor
+  -You can change the UIVvew bagroundcolor to adjust the FloatingActionButtonColor
  
  
 - Step 4 
