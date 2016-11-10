@@ -1,5 +1,5 @@
 # KYFloatingActionButton
- That's a FloatingActionButton and you can adjust its position with autolayout
+ That's a FloatingActionButton and you can set its position with autolayout
 
 #Requirements
 
