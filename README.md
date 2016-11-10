@@ -55,4 +55,4 @@ button.openType = .popUp
 ```
 #Author
  Shane Line 
- Email：lawlietop@gmail.com
+ \n Email：lawlietop@gmail.com
