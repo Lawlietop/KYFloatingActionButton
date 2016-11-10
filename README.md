@@ -47,6 +47,6 @@ button.openType = .popUp
             alert.addAction(ok)
             self.present(alert, animated: true, completion: nil) 
             
-            // add a itemButton with closure
+            // add a itemButton with closure and image
             
 ```
