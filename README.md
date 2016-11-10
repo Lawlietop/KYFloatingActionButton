@@ -53,3 +53,6 @@ button.openType = .popUp
             // add a itemButton with closure and image
             
 ```
+#Author
+ Shane Line 
+ Email：lawlietop@gmail.com
