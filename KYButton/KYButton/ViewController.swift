@@ -8,15 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,KYButtonDelegate {
 
     @IBOutlet weak var button: KYButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        button.openType = .popDown
+        button.kyDelegate = self
+        button.openType = .popUp
         button.plusColor = UIColor.black
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
@@ -29,8 +29,19 @@ class ViewController: UIViewController {
             
         }
         
+        
+        
     }
 
+    
+    func openKYButton(_ button: KYButton) {
+        print("> <")
+    }
+
+    func closeKYButton(_ button: KYButton) {
+        print("= =")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

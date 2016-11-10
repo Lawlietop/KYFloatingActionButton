@@ -27,6 +27,8 @@ class KYButton: UIView{
     }
     */
     
+    var kyDelegate:KYButtonDelegate?
+    
     var hilighColor : UIColor!
     var orignalColor : UIColor!
     var overLayView : OverLayView!
@@ -131,6 +133,9 @@ class KYButton: UIView{
     case .popDown:
         popDownAnimation(isShow: true)
         }
+    
+    self.kyDelegate?.openKYButton?(self)
+    
     }
     
     func closeButton() {
@@ -152,6 +157,8 @@ class KYButton: UIView{
             popDownAnimation(isShow: false)
         }
         
+        
+        self.kyDelegate?.closeKYButton?(self)
     }
     
     open func add(color:UIColor) {
