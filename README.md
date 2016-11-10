@@ -21,7 +21,7 @@
  
  
 ### Step 3 
-  You can change the UIVvew bagroundcolor to adjust the FloatingActionButtonColor
+  You can change the UIView bagroundcolor to adjust the FloatingActionButtonColor
  
  
 ### Step 4 
