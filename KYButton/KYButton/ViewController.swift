@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        button.openType = .pop
+        button.openType = .popDown
+        button.plusColor = UIColor.black
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
         button.add(color:UIColor.brown)

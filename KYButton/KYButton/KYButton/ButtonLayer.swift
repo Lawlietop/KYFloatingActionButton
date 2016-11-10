@@ -16,7 +16,13 @@ class ButtonLayer: CAShapeLayer {
         self.backgroundColor = bg.cgColor
         self.circleMask()
     }
-
+    
+     var plusColor : UIColor = UIColor.black{
+        didSet{
+            self.strokeColor = plusColor.cgColor
+        }
+    }
+    
     override var frame: CGRect {
         didSet {
             print (self.frame)
@@ -46,7 +52,7 @@ class ButtonLayer: CAShapeLayer {
         path.addLine(to: CGPoint(x: rect.maxX - 15,y: rect.midY))
         self.lineWidth = 3
         self.lineCap = kCALineCapRound
-        self.strokeColor = UIColor.black.cgColor
+        self.strokeColor = plusColor.cgColor
         self.path = path.cgPath
     }
     

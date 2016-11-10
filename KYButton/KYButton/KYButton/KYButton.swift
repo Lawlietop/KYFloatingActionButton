@@ -14,7 +14,8 @@ class KYButton: UIView{
      enum openButtonType {
         case slideUp
         case slideDown
-        case pop
+        case popUp
+        case popDown
     }
 
     
@@ -33,11 +34,18 @@ class KYButton: UIView{
     var buttonLayer : ButtonLayer?
     var isHide : Bool = true
     
-    var openType : openButtonType = .pop
+    var openType : openButtonType = .popUp
     
     var buttonCells : KYButtonCells?
     
     var items : [KYButtonCells] = []
+    
+    
+    var plusColor:UIColor = UIColor.black{
+        didSet{
+            buttonLayer?.plusColor = plusColor
+        }
+    }
     
     public init() {
         super.init(frame: CGRect(x: 0, y: 0, width: 55, height: 55))
@@ -63,9 +71,6 @@ class KYButton: UIView{
     override var intrinsicContentSize: CGSize{
             return CGSize(width: 55, height: 55)
     }
-    
-    
-    
     
     
     override func layoutSubviews() {
@@ -121,8 +126,10 @@ class KYButton: UIView{
         self.slideUpAnimation(isShow: true)
     case .slideDown:
         slideDownAnimation(isShow: true)
-    case .pop:
+    case .popUp:
         popAnimation(isShow: true)
+    case .popDown:
+        popDownAnimation(isShow: true)
         }
     }
     
@@ -139,8 +146,10 @@ class KYButton: UIView{
             slideUpAnimation(isShow: false)
         case .slideDown:
             slideDownAnimation(isShow: false)
-        case .pop:
+        case .popUp:
             popAnimation(isShow: false)
+        case .popDown:
+            popDownAnimation(isShow: false)
         }
         
     }
@@ -265,6 +274,39 @@ class KYButton: UIView{
                             self.overLayView.removeFromSuperview()
                         }
                         item.transform = CGAffineTransform.identity
+                })
+                delay += 0.15
+            }
+        }
+    }
+    
+    
+    //    ----------------------------------------------popDown---------------------------------------------------
+    
+    fileprivate func popDownAnimation(isShow:Bool) {
+        var delay = 0.0
+        if isShow{
+            for (index,item) in items.enumerated() {
+                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + self.frame.height * CGFloat(index+1), width: self.frame.width, height: self.frame.height)
+                item.transform = CGAffineTransform.init(scaleX: 0.0, y: 0.0)
+                UIView.animate(withDuration: 0.3, delay: delay, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: UIViewAnimationOptions(), animations: {
+                    item.transform = CGAffineTransform.identity
+                    item.alpha = 1
+                }, completion: nil)
+                delay += 0.15
+            }
+        }else{
+            for (index,item) in items.reversed().enumerated(){
+                UIView.animate(withDuration: 0.2, delay: delay, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: [], animations: {
+                    
+                    item.transform = CGAffineTransform.init(scaleX: 0.1, y: 0.1)
+                    item.alpha = 0
+                }, completion: { (finish) in
+                    if index == self.items.count-1 && !isShow{
+                        self.isHide = true
+                        self.overLayView.removeFromSuperview()
+                    }
+                    item.transform = CGAffineTransform.identity
                 })
                 delay += 0.15
             }
