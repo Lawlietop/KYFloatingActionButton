@@ -53,6 +53,21 @@ button.openType = .popUp
             // add a itemButton with closure and image
             
 ```
+### Step 5
+*  You do something when button opening and closing with KYButtonDelegate func
+
+```swift
+
+func openKYButton(_ button: KYButton) {
+
+}
+
+func closeKYButton(_ button: KYButton) {
+
+}
+
+```
+
 #Author
 - Shane Line 
 - Email：lawlietop@gmail.com
