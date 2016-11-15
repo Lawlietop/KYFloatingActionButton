@@ -54,7 +54,7 @@ button.openType = .popUp
             
 ```
 ### Step 5
-*  You do something when button opening and closing with KYButtonDelegate func
+*  You do something when button opening and closing with delegate (KYButtonDelegate) function , they are both optional function below
 
 ```swift
 
