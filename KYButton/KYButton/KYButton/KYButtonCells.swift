@@ -36,6 +36,34 @@ class KYButtonCells: UIView {
         }
     }
     
+    open var titleColor : UIColor = UIColor.white{
+        didSet{
+            titleLabel.textColor = titleColor
+        }
+    }
+    
+    var _titleLabel:UILabel? = nil
+    open var titleLabel :UILabel {
+        get{
+            if _titleLabel == nil{
+                _titleLabel = UILabel()
+                _titleLabel?.textColor = titleColor
+                addSubview(_titleLabel!)
+            }
+            return _titleLabel!
+        }
+    }
+    
+    
+    open var title: String? = nil {
+        didSet {
+            titleLabel.text = title
+            titleLabel.sizeToFit()
+            titleLabel.frame.origin.x = -titleLabel.frame.size.width - 10
+            titleLabel.frame.origin.y = 21-titleLabel.frame.size.height/2
+        }
+    }
+    
     var _iconImageView: UIImageView? = nil
     open var iconImageView: UIImageView {
         get {
@@ -65,6 +93,7 @@ class KYButtonCells: UIView {
         super.init(frame:CGRect.zero)
         self.creatCircle()
         self.createShadow()
+        self.createLabelShadow()
     }
     
     override init(frame: CGRect) {
@@ -95,6 +124,13 @@ class KYButtonCells: UIView {
     fileprivate func createShadow(){
         circleLayer.shadowOffset = CGSize(width: 0, height: 0)
         circleLayer.shadowOpacity = 1
+    }
+    
+    fileprivate func createLabelShadow(){
+        titleLabel.layer.shadowOffset = CGSize(width: 1, height: 1)
+        titleLabel.layer.shadowRadius = 2
+        titleLabel.layer.shadowColor = UIColor.black.cgColor
+        titleLabel.layer.shadowOpacity = 0.5
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

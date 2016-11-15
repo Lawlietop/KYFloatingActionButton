@@ -118,7 +118,6 @@ class KYButton: UIView{
     }
     
     
-    
     for item in items {
         self.overLayView.addSubview(item)
     }
@@ -166,6 +165,27 @@ class KYButton: UIView{
         item.buttonItemColor = color
         item.backgroundColor = UIColor.clear
         item.alpha = 0
+        item.actionButton = self
+        items.append(item)
+    }
+    
+    open func add(color:UIColor,title:String){
+        let item = KYButtonCells()
+        item.buttonItemColor = color
+        item.backgroundColor = UIColor.clear
+        item.alpha = 0
+        item.title = title
+        item.actionButton = self
+        items.append(item)
+    }
+    
+    open func add(color:UIColor,title:String,image:UIImage){
+        let item = KYButtonCells()
+        item.buttonItemColor = color
+        item.backgroundColor = UIColor.clear
+        item.alpha = 0
+        item.title = title
+        item.icon = image
         item.actionButton = self
         items.append(item)
     }
