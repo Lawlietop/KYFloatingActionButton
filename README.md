@@ -38,10 +38,10 @@ enum openButtonType {
 * Demo Code
 
 ```swift
-
+         
         button.kyDelegate = self
         button.openType = .popUp
-        button.plusColor = UIColor.black
+        button.plusColor = UIColor.black     //  Change plus color
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
         button.add(color: UIColor.brown, title: "Hello")
@@ -52,7 +52,7 @@ enum openButtonType {
             self.present(alert, animated: true, completion: nil)
         }
             
-            // add a itemButton with closure and image
+            // add a itemButton with closure 、 image 、 title and buttoncolor 
             
 ```
 ### Step 5
