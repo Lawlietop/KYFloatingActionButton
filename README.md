@@ -8,7 +8,7 @@
  - Xcode 8+
 
 #Demo
- ![](https://github.com/Lawlietop/KYFloatingActionButton/blob/master/Demo/9vfBOFE8QB.gif)
+ ![](https://github.com/Lawlietop/KYFloatingActionButton/blob/master/Demo/F9SuJIUGqg.gif)
  
 #Usage 
 
