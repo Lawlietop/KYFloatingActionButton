@@ -8,7 +8,7 @@
  - Xcode 8+
 
 #Demo
- ![](https://github.com/Lawlietop/KYFloatingActionButton/blob/master/Demo/9vfBOFE8QB.gif)
+ ![](https://github.com/Lawlietop/KYFloatingActionButton/blob/master/Demo/F9SuJlUGqg.gif)
  
 #Usage 
 
@@ -38,19 +38,21 @@ enum openButtonType {
 * Demo Code
 
 ```swift
-
-button.openType = .popUp
-        button.plusColor = UIColor.brown      // Change plus color
-        button.add(color:UIColor.red)         // add a itemButton
+         
+        button.kyDelegate = self
+        button.openType = .popUp
+        button.plusColor = UIColor.black     //  Change plus color
+        button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
-        button.add(color:UIColor.brown)
-        button.add(color: UIColor.green, image: UIImage(named: "Map Filled-50.png")!) { (item) in
+        button.add(color: UIColor.brown, title: "Hello")
+        button.add(color: UIColor.green, title: "Are you ready ?", image: UIImage(named: "Map Filled-50.png")!) { (item) in
             let alert = UIAlertController(title: "Hello", message: "Are you ok?", preferredStyle: .alert)
             let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
             alert.addAction(ok)
-            self.present(alert, animated: true, completion: nil) 
+            self.present(alert, animated: true, completion: nil)
+        }
             
-            // add a itemButton with closure and image
+            // add a itemButton with closure 、 image 、 title and buttoncolor 
             
 ```
 ### Step 5
