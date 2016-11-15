@@ -21,7 +21,7 @@ class ViewController: UIViewController,KYButtonDelegate {
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
         button.add(color: UIColor.brown, title: "Hello")
-        button.add(color: UIColor.green, image: UIImage(named: "Map Filled-50.png")!) { (item) in
+        button.add(color: UIColor.green, title: "Are you ready ?", image: UIImage(named: "Map Filled-50.png")!) { (item) in
             let alert = UIAlertController(title: "Hello", message: "Are you ok?", preferredStyle: .alert)
             let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
             alert.addAction(ok)

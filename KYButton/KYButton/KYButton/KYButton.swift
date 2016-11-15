@@ -169,7 +169,7 @@ class KYButton: UIView{
         items.append(item)
     }
     
-    open func add(color:UIColor,title:String){
+    open func add(color:UIColor,title:String?){
         let item = KYButtonCells()
         item.buttonItemColor = color
         item.backgroundColor = UIColor.clear
@@ -179,7 +179,7 @@ class KYButton: UIView{
         items.append(item)
     }
     
-    open func add(color:UIColor,title:String,image:UIImage){
+    open func add(color:UIColor,title:String?,image:UIImage){
         let item = KYButtonCells()
         item.buttonItemColor = color
         item.backgroundColor = UIColor.clear
@@ -190,12 +190,13 @@ class KYButton: UIView{
         items.append(item)
     }
     
-    open func add(color:UIColor,image:UIImage,handle:@escaping ((KYButtonCells)->Void)){
+    open func add(color:UIColor,title:String?,image:UIImage,handle:@escaping ((KYButtonCells)->Void)){
         let item = KYButtonCells()
         item.buttonItemColor = color
         item.icon = image
         item.backgroundColor = UIColor.clear
         item.alpha = 0
+        item.title = title
         item.actionCloure = handle
         item.actionButton = self
         items.append(item)
