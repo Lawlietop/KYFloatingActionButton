@@ -33,9 +33,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="bt6-ji-Zzi" secondAttribute="trailing" id="5Hy-oj-1BL"/>
-                            <constraint firstItem="vNQ-m4-hvY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8C0-uk-tp0"/>
                             <constraint firstItem="bt6-ji-Zzi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="AzN-op-wux"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vNQ-m4-hvY" secondAttribute="bottom" constant="20" id="cOa-qF-jDg"/>
+                            <constraint firstItem="vNQ-m4-hvY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Kvt-pI-dUa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vNQ-m4-hvY" secondAttribute="bottom" constant="20" id="oyS-7n-gWo"/>
                             <constraint firstItem="bt6-ji-Zzi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uVX-QB-k82"/>
                             <constraint firstItem="bt6-ji-Zzi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zCc-gz-ZM8"/>
                         </constraints>
