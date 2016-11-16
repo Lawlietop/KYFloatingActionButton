@@ -42,6 +42,7 @@ enum openButtonType {
         button.kyDelegate = self
         button.openType = .popUp
         button.plusColor = UIColor.black     //  Change plus color
+        button.fabTitleColor = UIColor.white    // Change title color
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
         button.add(color: UIColor.brown, title: "Hello")
