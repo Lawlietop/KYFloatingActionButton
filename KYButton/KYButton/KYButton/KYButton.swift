@@ -29,6 +29,7 @@ class KYButton: UIView{
     
     var kyDelegate:KYButtonDelegate?
     
+    var fabTitleColor : UIColor!
     var hilighColor : UIColor!
     var orignalColor : UIColor!
     var overLayView : OverLayView!
@@ -165,6 +166,7 @@ class KYButton: UIView{
         item.buttonItemColor = color
         item.backgroundColor = UIColor.clear
         item.alpha = 0
+        item.titleColor = fabTitleColor
         item.actionButton = self
         items.append(item)
     }
@@ -175,6 +177,7 @@ class KYButton: UIView{
         item.backgroundColor = UIColor.clear
         item.alpha = 0
         item.title = title
+        item.titleColor = fabTitleColor
         item.actionButton = self
         items.append(item)
     }
@@ -186,6 +189,7 @@ class KYButton: UIView{
         item.alpha = 0
         item.title = title
         item.icon = image
+        item.titleColor = fabTitleColor
         item.actionButton = self
         items.append(item)
     }
@@ -197,10 +201,13 @@ class KYButton: UIView{
         item.backgroundColor = UIColor.clear
         item.alpha = 0
         item.title = title
+        item.titleColor = fabTitleColor
         item.actionCloure = handle
         item.actionButton = self
         items.append(item)
     }
+    
+    
     
     
     
@@ -249,7 +256,7 @@ class KYButton: UIView{
         var delay = 0.0
         if isShow {
             for (index,item) in items.enumerated() {
-                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + self.frame.height * CGFloat(index), width: self.frame.width, height: self.frame.height)
+                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + self.frame.height * CGFloat(index) + 25, width: self.frame.width, height: self.frame.height)
                 
                 UIView.animate(withDuration: 0.2, delay: delay, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: UIViewAnimationOptions(), animations: {
                     let shift = self.frame.height
@@ -282,7 +289,7 @@ class KYButton: UIView{
         var delay = 0.0
         if isShow{
             for (index,item) in items.enumerated() {
-                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y - self.frame.height * CGFloat(index+1), width: self.frame.width, height: self.frame.height)
+                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y - self.frame.height * CGFloat(index+1) , width: self.frame.width, height: self.frame.height)
                 item.transform = CGAffineTransform.init(scaleX: 0.0, y: 0.0)
                 UIView.animate(withDuration: 0.3, delay: delay, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: UIViewAnimationOptions(), animations: {
                     item.transform = CGAffineTransform.identity
@@ -315,7 +322,7 @@ class KYButton: UIView{
         var delay = 0.0
         if isShow{
             for (index,item) in items.enumerated() {
-                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + self.frame.height * CGFloat(index+1), width: self.frame.width, height: self.frame.height)
+                item.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + self.frame.height * CGFloat(index+1) + 25, width: self.frame.width, height: self.frame.height)
                 item.transform = CGAffineTransform.init(scaleX: 0.0, y: 0.0)
                 UIView.animate(withDuration: 0.3, delay: delay, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: UIViewAnimationOptions(), animations: {
                     item.transform = CGAffineTransform.identity
