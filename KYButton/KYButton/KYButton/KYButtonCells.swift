@@ -59,7 +59,7 @@ class KYButtonCells: UIView {
         didSet {
             titleLabel.text = title
             titleLabel.sizeToFit()
-            titleLabel.frame.origin.x = -titleLabel.frame.size.width - 10
+            titleLabel.frame.origin.x = -titleLabel.frame.size.width
             titleLabel.frame.origin.y = 21-titleLabel.frame.size.height/2
         }
     }
