@@ -16,9 +16,9 @@ class ViewController: UIViewController,KYButtonDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         button.kyDelegate = self
-        button.openType = .popDown
+        button.openType = .popUp
         button.plusColor = UIColor.black
-        button.fabTitleColor = UIColor.red
+        button.fabTitleColor = UIColor.white
         button.add(color:UIColor.red)
         button.add(color:UIColor.orange)
         button.add(color: UIColor.brown, title: "Hello")
