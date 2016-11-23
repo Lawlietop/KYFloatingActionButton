@@ -72,7 +72,7 @@ func closeKYButton(_ button: KYButton) {
 ```
 
 #Author
-- Shane Line 
+- Shane Lin 
 - Email：lawlietop@gmail.com
 
 
