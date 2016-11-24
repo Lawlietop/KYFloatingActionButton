@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.ios.deployment_target = '8.0'
-  s.source_files  = 'KYFloatingActionButton/KYFloatingActionButton/Classes/**/*'
+  s.source_files  = 'KYFloatingActionButton/Classes/**/*'
 
 
   # s.public_header_files = "Classes/**/*.h"
