@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D57CE451DD4439A00E9C29E /* KYButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57CE441DD4439A00E9C29E /* KYButtonDelegate.swift */; };
-		5DA58FC31DCB4405002CB5F2 /* ButtonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */; };
-		5DA58FC41DCB4405002CB5F2 /* KYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */; };
-		5DA58FC51DCB4405002CB5F2 /* KYButtonCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */; };
-		5DA58FC61DCB4405002CB5F2 /* OverLayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */; };
-		5DA58FC71DCB4405002CB5F2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */; };
+		5D9C53611DE6AFCB007BFBE0 /* ButtonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C535B1DE6AFCB007BFBE0 /* ButtonLayer.swift */; };
+		5D9C53621DE6AFCB007BFBE0 /* KYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C535C1DE6AFCB007BFBE0 /* KYButton.swift */; };
+		5D9C53631DE6AFCB007BFBE0 /* KYButtonCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C535D1DE6AFCB007BFBE0 /* KYButtonCells.swift */; };
+		5D9C53641DE6AFCB007BFBE0 /* KYButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C535E1DE6AFCB007BFBE0 /* KYButtonDelegate.swift */; };
+		5D9C53651DE6AFCB007BFBE0 /* OverLayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C535F1DE6AFCB007BFBE0 /* OverLayView.swift */; };
+		5D9C53661DE6AFCB007BFBE0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C53601DE6AFCB007BFBE0 /* UIColorExtension.swift */; };
 		5DA58FC91DCB4475002CB5F2 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DA58FC81DCB4475002CB5F2 /* 222.jpg */; };
 		5DA58FCB1DCB447D002CB5F2 /* Map Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */; };
 		9A066EC91DA2786D008798E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A066EC81DA2786D008798E5 /* AppDelegate.swift */; };
@@ -42,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D57CE441DD4439A00E9C29E /* KYButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYButtonDelegate.swift; sourceTree = "<group>"; };
-		5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayer.swift; sourceTree = "<group>"; };
-		5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYButton.swift; sourceTree = "<group>"; };
-		5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYButtonCells.swift; sourceTree = "<group>"; };
-		5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverLayView.swift; sourceTree = "<group>"; };
-		5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5D9C535B1DE6AFCB007BFBE0 /* ButtonLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonLayer.swift; path = ../../KYFloatingActionButton/Classes/ButtonLayer.swift; sourceTree = "<group>"; };
+		5D9C535C1DE6AFCB007BFBE0 /* KYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYButton.swift; path = ../../KYFloatingActionButton/Classes/KYButton.swift; sourceTree = "<group>"; };
+		5D9C535D1DE6AFCB007BFBE0 /* KYButtonCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYButtonCells.swift; path = ../../KYFloatingActionButton/Classes/KYButtonCells.swift; sourceTree = "<group>"; };
+		5D9C535E1DE6AFCB007BFBE0 /* KYButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYButtonDelegate.swift; path = ../../KYFloatingActionButton/Classes/KYButtonDelegate.swift; sourceTree = "<group>"; };
+		5D9C535F1DE6AFCB007BFBE0 /* OverLayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverLayView.swift; path = ../../KYFloatingActionButton/Classes/OverLayView.swift; sourceTree = "<group>"; };
+		5D9C53601DE6AFCB007BFBE0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../../KYFloatingActionButton/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		5DA58FC81DCB4475002CB5F2 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
 		5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Filled-50.png"; sourceTree = "<group>"; };
 		9A066EC51DA2786D008798E5 /* KYButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,22 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DA58FBD1DCB4405002CB5F2 /* KYButton */ = {
+		5D9C53671DE6AFD4007BFBE0 /* KYFloatingActionButton */ = {
 			isa = PBXGroup;
 			children = (
-				5DA58FBE1DCB4405002CB5F2 /* ButtonLayer.swift */,
-				5DA58FBF1DCB4405002CB5F2 /* KYButton.swift */,
-				5D57CE441DD4439A00E9C29E /* KYButtonDelegate.swift */,
-				5DA58FC01DCB4405002CB5F2 /* KYButtonCells.swift */,
-				5DA58FC11DCB4405002CB5F2 /* OverLayView.swift */,
-				5DA58FC21DCB4405002CB5F2 /* UIColorExtension.swift */,
+				5D9C535B1DE6AFCB007BFBE0 /* ButtonLayer.swift */,
+				5D9C535C1DE6AFCB007BFBE0 /* KYButton.swift */,
+				5D9C535D1DE6AFCB007BFBE0 /* KYButtonCells.swift */,
+				5D9C535E1DE6AFCB007BFBE0 /* KYButtonDelegate.swift */,
+				5D9C535F1DE6AFCB007BFBE0 /* OverLayView.swift */,
+				5D9C53601DE6AFCB007BFBE0 /* UIColorExtension.swift */,
 			);
+			name = KYFloatingActionButton;
 			path = KYButton;
 			sourceTree = "<group>";
 		};
 		9A066EBC1DA2786C008798E5 = {
 			isa = PBXGroup;
 			children = (
+				5D9C53671DE6AFD4007BFBE0 /* KYFloatingActionButton */,
 				9A066EC71DA2786D008798E5 /* Exsample */,
 				9A066EDC1DA2786D008798E5 /* KYButtonTests */,
 				9A066EE71DA2786D008798E5 /* KYButtonUITests */,
@@ -128,7 +130,6 @@
 			children = (
 				9A066EC81DA2786D008798E5 /* AppDelegate.swift */,
 				9A066ECA1DA2786D008798E5 /* ViewController.swift */,
-				5DA58FBD1DCB4405002CB5F2 /* KYButton */,
 				9A066ECC1DA2786D008798E5 /* Main.storyboard */,
 				5DA58FC81DCB4475002CB5F2 /* 222.jpg */,
 				5DA58FCA1DCB447D002CB5F2 /* Map Filled-50.png */,
@@ -295,14 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9C53611DE6AFCB007BFBE0 /* ButtonLayer.swift in Sources */,
+				5D9C53621DE6AFCB007BFBE0 /* KYButton.swift in Sources */,
 				9A066ECB1DA2786D008798E5 /* ViewController.swift in Sources */,
-				5DA58FC51DCB4405002CB5F2 /* KYButtonCells.swift in Sources */,
+				5D9C53661DE6AFCB007BFBE0 /* UIColorExtension.swift in Sources */,
+				5D9C53651DE6AFCB007BFBE0 /* OverLayView.swift in Sources */,
+				5D9C53631DE6AFCB007BFBE0 /* KYButtonCells.swift in Sources */,
+				5D9C53641DE6AFCB007BFBE0 /* KYButtonDelegate.swift in Sources */,
 				9A066EC91DA2786D008798E5 /* AppDelegate.swift in Sources */,
-				5DA58FC31DCB4405002CB5F2 /* ButtonLayer.swift in Sources */,
-				5D57CE451DD4439A00E9C29E /* KYButtonDelegate.swift in Sources */,
-				5DA58FC61DCB4405002CB5F2 /* OverLayView.swift in Sources */,
-				5DA58FC41DCB4405002CB5F2 /* KYButton.swift in Sources */,
-				5DA58FC71DCB4405002CB5F2 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
