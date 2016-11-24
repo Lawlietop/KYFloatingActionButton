@@ -16,18 +16,17 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KYFloatingActionButton"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of KYFloatingActionButton."
+  s.version      = "1.0.0"
+  s.summary      = "Custom FloatingActionButton"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = 'Custom FloatingActionButton hope you like it'
 
-  s.homepage     = "http://EXAMPLE/KYFloatingActionButton"
+  s.homepage     = "https://github.com/Lawlietop/KYFloatingActionButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Shane.Lin" => "shane.lin@ezpay.com.tw" }
+  s.author             = { "Shane.Lin" => "lawlietop@gmail.com" }
   # Or just: s.author    = "Shane.Lin"
   # s.authors            = { "Shane.Lin" => "shane.lin@ezpay.com.tw" }
   # s.social_media_url   = "http://twitter.com/Shane.Lin"
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/KYFloatingActionButton.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Lawlietop/KYFloatingActionButton.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,9 +88,9 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+  s.ios.deployment_target = '8.0'
+  s.source_files  = 'KYFloatingActionButton/KYFloatingActionButton/Classes/**/*'
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -133,5 +132,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.requires_arc = true
 end
